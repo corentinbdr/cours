@@ -1,0 +1,74 @@
+body{
+  background: #ffffff;
+  color: #404969;
+  font-size: 20px;
+  font-family: Muli;
+  text-align: center;
+  position: sticky;
+
+}
+h1{
+  font-family: Futura;
+  color: #DC552C;
+  font-weight: lighter;
+  font-size: 100%;
+  text-align: center;
+}
+h2 {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center center;
+}
+a {
+  color: black;
+  background-color: white;
+
+}
+a:hover {
+  text-decoration: none;
+  color: purple;
+}
+#banner{
+  text-align: center;
+  background-image: url("https://unsplash.it/1300/600?random");
+  background-size: cover;
+  padding: 150px 0px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+#banner h1 {
+  color: white;
+  font-size: 200%;
+
+}
+
+@media (max-width: 768px) {
+  #banner h1 {
+    font-size : 70%;
+  }
+}
+
+#banner p {
+  color: white;
+  opacity: 0.8;
+  font-size: 100%;
+  font-weight: lighter;
+}
+#footer{
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+  align-items: center;
+}
+.card{
+  padding: 10px 10px;
+  align: center;
+  align-items: center;
+  object-position: center;
+}
+#button {
+  padding: 100px 10px;
+}
+#footer a {
+  color: red;
+  font-size: 15px;
+}
