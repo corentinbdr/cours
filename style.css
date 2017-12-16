@@ -1,5 +1,5 @@
 body{
-  background: #ffffff;
+  background: none;
   color: #404969;
   font-size: 20px;
   font-family: Muli;
@@ -30,7 +30,7 @@ a:hover {
 }
 #banner{
   text-align: center;
-  background-image: url("https://unsplash.it/1300/600?random");
+  background-image: url("https://images.unsplash.com/photo-1496033604106-04799291ee86?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D");
   background-size: cover;
   padding: 150px 0px;
   color: white;
@@ -43,7 +43,7 @@ a:hover {
 }
 
 @media (max-width: 768px) {
-  #banner h1 {
+  #banner  {
     font-size : 70%;
   }
 }
@@ -53,22 +53,29 @@ a:hover {
   opacity: 0.8;
   font-size: 100%;
   font-weight: lighter;
+  position: relative;
 }
 #footer{
-  background: rgb(30, 30, 30);
-  color: lightgrey;
+  background: #303f59;
+  color: white;
   align-items: center;
 }
 .card{
   padding: 10px 10px;
   align: center;
-  align-items: center;
-  object-position: center;
-}
-#button {
-  padding: 100px 10px;
 }
 #footer a {
-  color: red;
+  color: white;
   font-size: 15px;
+  background: none;
 }
+
+#ButtonStartNow {
+  border-radius: 50px;
+  width: 25%;
+  margin:1% 37.5%;
+}
+#maps {
+  margin: 10px 10px
+  width: 50%;
+  }
